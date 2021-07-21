@@ -1,4 +1,4 @@
 # Calculator
 
-##Issues:
+#Issues:
 -Double opérator sign
