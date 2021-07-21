@@ -11,6 +11,13 @@ function cache(num) {
     display(number);
 }
 
+function reset() {
+    number = '';
+    number2 = '';
+    operationSign = '';
+    display(number);
+}
+
 function operation(sign){
     if(sign == '=') {
         if(number2 != '') {
