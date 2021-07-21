@@ -1,0 +1,48 @@
+<script src="app.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div id="result"></div>
+        <hr style="border: 0; border-top: 3px solid rgb(199, 221, 2);">
+        <table class="button">
+            <tr>
+                <th class='buttons' onclick="cache('7')">7</th>
+                <th class='buttons' onclick="cache('8')">8</th>
+                <th class='buttons' onclick="cache('9')">9</th>
+                <th class='buttons' onclick="operation('x')">x</th>
+            </tr>
+            <tr>
+                <th class='buttons' onclick="cache('4')">4</th>
+                <th class='buttons' onclick="cache('5')">5</th>
+                <th class='buttons' onclick="cache('6')">6</th>
+                <th class='buttons' onclick="operation('+')">+</th>
+            </tr>
+            <tr>
+                <th class='buttons' onclick="cache('1')">1</th>
+                <th class='buttons' onclick="cache('2')">2</th>
+                <th class='buttons' onclick="cache('3')">3</th>
+                <th class='buttons' onclick="operation('/')">/</th>
+            </tr>
+            <tr>
+                <th class='buttons' onclick="input('C')">C</th>
+                <th class='buttons' onclick="cache('0')">0</th>
+                <th class='buttons' onclick="cache('.')">.</th>
+                <th class='buttons' onclick="operation('-')">-</th>
+            </tr>
+            <tr><th class="equal" onclick="operation('=')">=</th></tr>
+        </table>
+    </div>
+    <div id="historic">
+        <h2>Calculs: </h2>
+    </div>
+    <footer><h3 style="text-align: center;margin: 0px 0px 0px 0px;">WebSite By <a href="https://github.com/BlasterWhite/">BlasterWhite</a></h3></footer>
+</body>
+</html>
