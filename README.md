@@ -2,4 +2,4 @@
 
 Issues :
 
--Double opérator sign
+-Double operator sign
